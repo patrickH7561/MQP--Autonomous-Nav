@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import cv2
 import apriltag
 import rospy
@@ -76,7 +75,3 @@ class RealTurtle:
         print("Launched")
         self.Localization()
         rospy.spin()
-
-
-if __name__ == '__main__':
-    RealTurtle().run()
